@@ -1,0 +1,41 @@
+#div-container,h1, #button-container{
+    display: flex;
+    justify-content: center;
+}
+
+h1{ 
+    margin: 5rem .5rem 0;
+    font-size: 100px;
+}
+
+
+ body{
+    background-color: rgb(238,130,238);
+ }  
+ #button-Container {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+  } 
+
+ button {
+    margin-left: 5rem;
+    padding: 1%;
+    border-radius: 45%;
+    border: black solid 2px;
+    width: 12%;
+  }
+  
+  button:hover {
+    background-color: hsl(255, 45%, 55%);
+    transform: translateY(2px);
+    box-shadow: 0 5px rgb(224, 81, 202);
+  }
+
+  /* #div-Container2{
+    width: 40px;
+    aspect-ratio: 1/1;
+    background-color: blue;
+    margin: 2rem;
+   
+} */
