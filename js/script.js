@@ -1,5 +1,5 @@
 const nameAnimation={
-    targets:'#div-container h1',
+    targets:'#div-container h1,h2,h3',
     translateX:'-5rem',
     // delay:anime.stagger(100),
     rotate: anime.stagger([-360, 360]),
@@ -7,9 +7,21 @@ const nameAnimation={
     direction:'alternate',
     easing:'easeOutSine',
     duration:5000,
+    opacity: [0,1],
     loop:true,
     autoplay:false,
 }
+
+// const name2Animation={
+// Targets:"#div-container2 h2",
+// scale: [14, 1],
+// opacity: [0, 1],
+//  easing: "easeOutCirc",
+//  duration: 5000,
+
+// }
+
+
 
 const name = anime(nameAnimation);
 

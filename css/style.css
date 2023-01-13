@@ -1,17 +1,39 @@
-#div-container,h1, #button-container{
+#div-container,h1,h2,h3, #button-container{
     display: flex;
     justify-content: center;
 }
 
-h1{ 
+h1,h2{ 
     margin: 5rem .5rem 0;
     font-size: 100px;
+    color: #f40000;
+}
+
+h3{
+  color: aqua;
 }
 
 
- body{
-    background-color: rgb(238,130,238);
- }  
+
+
+@keyframes color {
+  0%   { background: #ffffff; }
+  20%  { background: #000000; }
+  40%  { background: #ffffff; }
+  60%  { background: #000000; }
+  80%  { background: #ffffff; }
+  100% { background: #000000; }
+}
+
+body {
+  
+  animation: color 15s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+
+
+ 
  #button-Container {
     margin-top: 15%;
     display: flex;
